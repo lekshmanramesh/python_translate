@@ -1,0 +1,5 @@
+	phone_no="sdasdajqwelqwekjjjkd123123123;';;'"
+	all=string.maketrans('','')
+	nodigs=all.translate(all,string.digits)
+	phone2=phone_no.translate(all,nodigs)
+	phone_no=phone2[-10:]
